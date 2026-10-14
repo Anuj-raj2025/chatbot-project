@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chat Logs</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="logs-page">
+  <h1>📋 Chat Interaction Logs</h1>
+  <p><a href="/">← Back to chatbot</a> · Total shown: {{ logs|length }}</p>
+  <table>
+    <tr><th>ID</th><th>Time</th><th>Session</th><th>User message</th><th>Bot reply</th><th>Intent</th><th>Conf.</th></tr>
+    {% for l in logs %}
+    <tr>
+      <td>{{ l.id }}</td>
+      <td>{{ l.created_at }}</td>
+      <td>{{ l.session_id[:6] }}</td>
+      <td>{{ l.user_message }}</td>
+      <td>{{ l.bot_reply }}</td>
+      <td>{{ l.intent }}</td>
+      <td>{{ l.confidence }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+</body>
+</html>

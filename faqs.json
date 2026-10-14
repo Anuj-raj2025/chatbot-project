@@ -1,0 +1,62 @@
+[
+  {
+    "intent": "shipping_time",
+    "questions": ["How long does shipping take?", "When will my order arrive?", "What is the delivery time?", "How many days for delivery?"],
+    "answer": "Standard shipping takes 3-5 business days. Express shipping takes 1-2 business days."
+  },
+  {
+    "intent": "order_tracking",
+    "questions": ["How can I track my order?", "Where is my package?", "Check my order status", "Track my shipment"],
+    "answer": "Go to 'My Orders' in your account and click 'Track'. A tracking link is also emailed when your order ships."
+  },
+  {
+    "intent": "refund_policy",
+    "questions": ["What is your refund policy?", "How do I return a product?", "I want my money back", "Can I get a refund?"],
+    "answer": "You can return items within 30 days of delivery for a full refund. Refunds reach your account in 5-7 business days."
+  },
+  {
+    "intent": "cancel_order",
+    "questions": ["How do I cancel my order?", "I want to cancel my purchase", "Can I cancel an order I just placed?", "Cancel order"],
+    "answer": "You can cancel an order for free before it ships. Go to 'My Orders' and click 'Cancel'."
+  },
+  {
+    "intent": "payment_methods",
+    "questions": ["What payment methods do you accept?", "Can I pay with a credit card?", "Do you accept UPI or PayPal?", "How can I pay for my order?"],
+    "answer": "We accept Visa, Mastercard, PayPal, UPI and Cash on Delivery."
+  },
+  {
+    "intent": "change_address",
+    "questions": ["How do I change my delivery address?", "I entered the wrong shipping address", "Can I update my address?", "Edit shipping address"],
+    "answer": "You can change the address from 'My Orders' before the order ships. After shipping, please contact support."
+  },
+  {
+    "intent": "contact_support",
+    "questions": ["How can I contact customer support?", "I want to talk to a human agent", "What is your support email or phone number?", "Contact you"],
+    "answer": "Email us at support@shopeasy.example or call +91-141-000-0000 (Mon-Sat, 9 AM - 6 PM)."
+  },
+  {
+    "intent": "business_hours",
+    "questions": ["What are your working hours?", "When are you open?", "What time does support close?", "Business hours"],
+    "answer": "Our support team works Monday to Saturday, 9 AM - 6 PM. This chatbot is available 24/7."
+  },
+  {
+    "intent": "account_password",
+    "questions": ["I forgot my password", "How do I reset my password?", "I can't log in to my account", "Change my password"],
+    "answer": "Click 'Forgot password' on the login page and enter your email. We'll send you a reset link."
+  },
+  {
+    "intent": "international_shipping",
+    "questions": ["Do you ship internationally?", "Can you deliver to another country?", "International shipping charges", "Do you deliver outside India?"],
+    "answer": "Yes, we ship to 40+ countries. International delivery takes 7-14 business days."
+  },
+  {
+    "intent": "discount_codes",
+    "questions": ["How do I use a discount code?", "Do you have any coupons or promo codes?", "My coupon is not working", "Where do I enter a voucher?"],
+    "answer": "Enter your code in the 'Promo code' box at checkout and click Apply. Codes cannot be combined."
+  },
+  {
+    "intent": "warranty",
+    "questions": ["Do products have a warranty?", "My product is damaged or defective", "How do I claim a warranty?", "Item arrived broken"],
+    "answer": "Electronics have a 1-year warranty. For damaged items, contact support within 7 days with a photo and we'll replace it."
+  }
+]
